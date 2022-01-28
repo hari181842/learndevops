@@ -69,3 +69,5 @@ pipeline {
        ansiblePlaybook credentialsId: 'ansible_cred', disableHostKeyChecking: true, installation: 'ansible', inventory: 'myinv', playbook: 'tomcat.yml'
   }
 }
+}
+}
