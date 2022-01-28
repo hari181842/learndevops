@@ -1,5 +1,5 @@
 ---
-- hosts: Appservers
+- hosts: All
   become: true
   vars:
    - tomcat_url: https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.71/bin/apache-tomcat-8.5.71.tar.gz
